@@ -1,0 +1,120 @@
+body {
+    font-family: "Crimson Text", serif;
+    text-decoration: none;
+
+}
+h2 {
+    font-size: 30px; /* Podemos aumentar usando %, dai terá como base o tamanho que já tem aumentando por exemplo 120%; */
+    font-family: "Open Sans Condensed, sans-serif"; /* sans-serif é um tipo de fonte, sem serifa (aquela voltinha na letra) Se não tiver a primeira fonte serif é um tipo de fonte que o navegador pode usar.*/
+    /* font-family: "Open Sans, Arial";  A primeira fonte talvez não tenha no pc do usuário, então coloco alternativa que é Arial.*/
+    clear: both;
+}
+main h1 { /* esse espaço significa DENTRO do h1*/
+    text-align: center;
+    background-color: rgb(0,139,139);
+    color: rgb(255,255,255) /* Ou usar color: #FAFFFA que seria a cor no decimal convertido para hexadecimal */;
+    font-size: 300%;
+    font-family: "Open Sans Condensed";
+    padding: 20px; /* Preenchimento - espaço entre a caixa e o texto */
+    margin: 0; /* controla espaços externos*/
+    border-bottom: .5rem solid black;
+    text-transform: uppercase;
+}
+p {
+    font-family: "Crimson Text";    
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px 0;
+}
+blockquote {
+    background-color: #D9E5E3;
+    padding: 1em;
+    border: .5em solid #C2CCCA;
+    width: 30ch;
+    margin: 1em 2em;
+    box-sizing: border-box; /* Regra para definir como o CSS vai medir - neste caso pelas bordas externas */
+}
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    padding: 15px; 
+}
+ul {
+    color: white;
+    text-align: center;
+}
+ul li a {
+    color: inherit; /*Esse valor faz com que a propriedade assuma o valor que foi definido em seu pai (ou ancestral, de um modo geral) em vez de assumir um outro valor. */
+}
+main div {
+    width: px;
+    padding: 30px 0;
+    margin: auto;
+    line-height: 1.5; /*controla apenas a altura entre as linhas de texto da página*/
+    width: 75%
+}
+aside {
+    margin-bottom: 25px;
+    background-color: rgb(0,139,139);
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans Condensed, sans-serif";
+}
+nav h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+nav a {
+    color: inherit; 
+    font-size: 20px;
+    text-transform: lowercase;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+.icones-sociais a { /*Conseguimos, assim, substituir um texto do HTML por uma imagem carregada via CSS. Essa é uma prática comum, tão comum que até tem um nome popular: image replacement.*/
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.github {
+    background-image: url(github.png);
+}
+.linkedin {
+    background-image: url(linkedin.png);
+}
+.marcelo {
+    float: right;
+}
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+aside, img {
+    float: right;
+    width: 20%;
+    border-left: .5rem solid black;
+    border-bottom: .5rem solid black;
+    box-sizing: border-box;
+}
+main {
+    float: left;
+    width: 80%
+}
+aside {
+    clear: right;
+    box-sizing: border-box;
+}
+.clearfix { 
+    clear: both;
+}
+cite {
+    font-style: italic;
+    float: right;
+}

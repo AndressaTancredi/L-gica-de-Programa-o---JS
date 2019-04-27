@@ -1,0 +1,125 @@
+main h1 {
+    font-size: 300%;
+    background-color: rgb(0,139,139);
+    color: rgb(255,255,255) /* Ou usar color: #FAFFFA que seria a cor no decimal convertido para hexadecimal */;
+    text-align: center;
+    font-family: "Open Sans Condensed";
+    padding: 1.25rem;
+    border-bottom: .5rem solid black;
+    margin-top: 0px;
+    text-transform: uppercase; 
+}
+h2 {
+    font-size: 30px;
+    /* font-family: "Open Sans, Arial";  A primeira fonte talvez não tenha no pc do usuário, então coloco alternativa que é Arial.*/
+    font-family: "Open Sans, sans-serif"; /* sans-serif é um tipo de fonte, sem serifa (aquela voltinha na letra)*/
+}
+p {
+    font-family: "Crimson Text";    
+    text-align: justify;
+    font-size: 20px;
+}
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    padding: 15px; 
+}
+main div {
+    padding: 30px 0;
+    margin: auto;
+    line-height: 1.5; /*controla apenas a altura entre as linhas de texto da página*/
+    width: 75%
+}
+aside h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+ul {
+    color: white;
+    text-align: center;
+}
+ul li a {
+    color: inherit; /*Esse valor faz com que a propriedade assuma o valor que foi definido em seu pai (ou ancestral, de um modo geral) em vez de assumir um outro valor. */
+    display: inline-block;
+}
+main div {
+    width: px;
+    padding: 30px;
+    margin: auto;
+    line-height: 1.5; /*controla apenas a altura entre as linhas de texto da página*/
+}
+aside {
+    margin-bottom: 25px;
+    background-color: rgb(0,139,139);
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans Condensed, sans-serif";
+}
+nav h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+nav a {
+    color: inherit; 
+    font-size: 20px;
+    text-transform: lowercase;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+.icones-sociais a { /*Conseguimos, assim, substituir um texto do HTML por uma imagem carregada via CSS. Essa é uma prática comum, tão comum que até tem um nome popular: image replacement.*/
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.github {
+    background-image: url(github.png);
+}
+.linkedin {
+    background-image: url(linkedin.png);
+}
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.leia-mais {
+    padding: .5em;
+    margin: 0;
+    display: block;
+    font-size: 1.5em;
+    text-align: left;
+}
+aside, img {
+    float: right;
+    width: 20%;
+    border-left: .5rem solid black;
+    border-bottom: .5rem solid black;
+    box-sizing: border-box;
+}
+main {
+    float: left;
+    width: 80%
+}
+aside {
+    clear: right;
+    box-sizing: border-box;
+}
+.clearfix { 
+    clear: both;
+}
+cite {
+    font-style: italic;
+    float: right;
+}
